@@ -21,13 +21,14 @@
       "@core/*": [
         "src/app/core/*"
       ],
-      "@shared/*": [
-        "src/app/shared/*"
-      ],
       "@features/*": [
         "src/app/features/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
       ]
     },
+    "baseUrl": "./"
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
