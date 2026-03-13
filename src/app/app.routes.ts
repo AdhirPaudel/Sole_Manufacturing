@@ -1,10 +1,11 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from '@features/home/home/home.component';
 
 export const routes: Routes = [
     {
         path: '',
-        component: HomeComponent
+        pathMatch: 'full',
+        loadComponent: () => 
+            import('./features/home/home/home.component').then(m => m.HomeComponent)
     },
     {
         path: 'about',
