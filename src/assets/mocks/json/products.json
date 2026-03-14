@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Vortex Carbon Sole", "category": "Performance", "price": 52.20, "tag": "Best Seller", "series": "AERO-MAX SERIES", "image": "" },
+  { "id": 2, "name": "Apex Trail Matrix", "category": "Trail", "price": 48.00, "tag": "New", "series": "TERRA-GRIP", "image": "" },
+  { "id": 3, "name": "Echo Foam Hybrid", "category": "Casual", "price": 38.50, "tag": "", "series": "URBAN-LITE", "image": "" },
+  { "id": 4, "name": "Kinetic Flex Pro", "category": "Performance", "price": 61.00, "tag": "New", "series": "AERO-MAX SERIES", "image": "" },
+  { "id": 5, "name": "Terra Grip X", "category": "Trail", "price": 44.00, "tag": "", "series": "TERRA-GRIP", "image": "" },
+  { "id": 6, "name": "Urban Stride Lite", "category": "Casual", "price": 35.00, "tag": "Sale", "series": "URBAN-LITE", "image": "" }
+]

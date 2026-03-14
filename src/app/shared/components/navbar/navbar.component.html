@@ -1,5 +1,3 @@
-
-
 <div class="flex items-center justify-between w-full px-8 py-3 bg-[#070a10] border-b border-[#1e2a38]">
 
   <div class="flex items-center gap-2">
@@ -8,11 +6,16 @@
   </div>
 
   <div class="flex items-center gap-6">
-    <a href="#" class="text-[#2e7dff] border-b-2 border-[#2e7dff] py-1">Home</a>
-    <a href="#" class="text-[#dde8f5] hover:text-[#2e7dff] transition-colors py-1">Infrastructure</a>
-    <a href="#" class="text-[#dde8f5] hover:text-[#2e7dff] transition-colors py-1">Sustainability</a>
-    <a href="#" class="text-[#dde8f5] hover:text-[#2e7dff] transition-colors py-1">Journey</a>
-    <a href="#" class="text-[#dde8f5] hover:text-[#2e7dff] transition-colors py-1">Contact</a>
+    <a href="#" routerLink="/" routerLinkActive="text-[#2e7dff] border-b-2 border-[#2e7dff]"
+      [routerLinkActiveOptions]="{exact: true}" class="text-[#2e7dff] border-b-2 border-[#2e7dff] py-1">Home</a>
+    <a href="#" class="text-[#dde8f5] hover:text-[#2e7dff] transition-colors py-1"
+      routerLinkActive="text-[#2e7dff] border-b-2 border-[#2e7dff]" routerLink="/about">Infrastructure</a>
+    <a href="#" class="text-[#dde8f5] hover:text-[#2e7dff] transition-colors py-1"
+      routerLinkActive="text-[#2e7dff] border-b-2 border-[#2e7dff]" routerLink="/sustainability">Sustainability</a>
+    <a href="#" class="text-[#dde8f5] hover:text-[#2e7dff] transition-colors py-1"
+      routerLinkActive="text-[#2e7dff] border-b-2 border-[#2e7dff]" routerLink="/journey">Journey</a>
+    <a href="#" class="text-[#dde8f5] hover:text-[#2e7dff] transition-colors py-1"
+      routerLinkActive="text-[#2e7dff] border-b-2 border-[#2e7dff]" routerLink="/contact">Contact</a>
   </div>
 
   <div class="flex items-center gap-4">
@@ -21,10 +24,12 @@
       <input type="text" placeholder="Search systems..."
         class="bg-transparent text-[#dde8f5] text-sm outline-none w-36 placeholder-[#5a7090]" />
     </div>
-    <button class="bg-[#2e7dff] hover:bg-[#1a6aee] text-white font-semibold text-sm px-5 py-2 rounded-lg border-none cursor-pointer transition-colors">
+    <button
+      class="bg-[#2e7dff] hover:bg-[#1a6aee] text-white font-semibold text-sm px-5 py-2 rounded-lg border-none cursor-pointer transition-colors">
       Partner With Us
     </button>
-    <div class="w-8 h-8 rounded-full bg-[#1e2a38] border border-[#2e7dff] flex items-center justify-center text-white text-sm">
+    <div
+      class="w-8 h-8 rounded-full bg-[#1e2a38] border border-[#2e7dff] flex items-center justify-center text-white text-sm">
       👤
     </div>
   </div>
