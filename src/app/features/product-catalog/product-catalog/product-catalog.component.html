@@ -1,46 +1,134 @@
 <!-- After your header section -->
 <div class="flex bg-[#070a10]">
 
-  <!-- SIDEBAR -->
-  <aside class="w-64 flex-shrink-0 bg-[#0d1117] border-r border-[#1e2a38] p-6 flex flex-col gap-6">
+    <!-- SIDEBAR -->
+    <aside class="w-64 flex-shrink-0 bg-[#0d1117] border-r border-[#1e2a38] p-6 flex flex-col gap-6">
 
-  <!-- Material Filters -->
-  <div class="flex flex-col gap-2">
-    <span class="text-xs font-bold uppercase tracking-widest text-[#5a7090]">Material Filters</span>
+        <!-- Material Filters -->
+        <div class="flex flex-col gap-2">
+            <span class="text-xs font-bold uppercase tracking-widest text-[#5a7090]">Material Filters</span>
 
-    @for (category of categories; track category) {
-      <button
-        (click)="filterByCategory(category)"
-        [ngClass]="{'bg-[#2e7dff]/10 text-[#2e7dff] font-semibold': selectedCategory === category}"
-        class="flex items-center gap-2 text-left text-sm text-[#8a9ab0] rounded-lg transition-all duration-200 hover:bg-[#1e2a38] px-4 py-2">
-        🖥️ {{ category }}
-      </button>
-    }
-  </div>
+            @for (category of categories; track category) {
+            <button (click)="filterByCategory(category)"
+                [ngClass]="{'bg-[#2e7dff]/10 text-[#2e7dff] font-semibold': selectedCategory === category}"
+                class="flex items-center gap-2 text-left text-sm text-[#8a9ab0] rounded-lg transition-all duration-200 hover:bg-[#1e2a38] px-4 py-2">
+                🖥️ {{ category }}
+            </button>
+            }
+        </div>
 
-  <!-- Availability -->
-  <div class="flex flex-col gap-3">
-    <span class="text-xs font-bold uppercase tracking-widest text-[#5a7090]">Availability</span>
+        <!-- Availability -->
+        <div class="flex flex-col gap-3">
+            <span class="text-xs font-bold uppercase tracking-widest text-[#5a7090]">Availability</span>
 
-    <label class="flex items-center gap-2 text-sm text-[#8a9ab0] cursor-pointer">
-      <input type="checkbox" class="w-4 h-4 accent-[#2e7dff]" />
-      In Stock
-    </label>
+            <label class="flex items-center gap-2 text-sm text-[#8a9ab0] cursor-pointer">
+                <input type="checkbox" class="w-4 h-4 accent-[#2e7dff]" />
+                In Stock
+            </label>
 
-    <label class="flex items-center gap-2 text-sm text-[#8a9ab0] cursor-pointer">
-      <input type="checkbox" class="w-4 h-4 accent-[#2e7dff]" />
-      Pre-order
-    </label>
-  </div>
+            <label class="flex items-center gap-2 text-sm text-[#8a9ab0] cursor-pointer">
+                <input type="checkbox" class="w-4 h-4 accent-[#2e7dff]" />
+                Pre-order
+            </label>
+        </div>
 
-</aside>
+    </aside>
 
-  <!-- MAIN -->
-  <main class="flex-1 p-8 flex flex-col gap-6">
-    <!-- Header Section -->
-    <h4 class="gap-4 text-4xl font-black text-white">Product Catalog</h4>
-    <span class="text-m text-[#8a9ab0]">Advanced high-performance footwear engineering components.</span>
-    Main content here
-  </main>
+    <!-- MAIN -->
+    <main class="flex-1 p-8 flex flex-col gap-6">
+        <!-- Header Section -->
+        <h4 class="gap-4 text-4xl font-black text-white">Product Catalog</h4>
+        <span class="text-m text-[#8a9ab0]">Advanced high-performance footwear engineering components.</span>
+
+        <div class="flex justify-between items-center">
+
+            <!-- Results count -->
+            <span class="text-sm text-[#8a9ab0]">
+                <span class="text-white font-bold">{{ filteredProducts.length }}</span> Results
+            </span>
+
+            <!-- Sort dropdown -->
+            <select
+                class="bg-[#0d1117] border border-[#1e2a38] text-[#8a9ab0] text-sm px-8 py-2 rounded-lg outline-none cursor-pointer" (change)="productFilter($event)">
+                <option>Sort: Featured</option>
+                <option value="LTH">Price: Low to High</option>
+                <option value="HTL">Price: High to Low</option>
+                <option value = "N">Newest</option>
+                <option value ="B">Best Seller</option>
+                <option value="H">Hot</option>
+            </select>
+
+        </div>
+
+        <div class="grid grid-cols-4 gap-6">
+
+            @for (product of filteredProducts; track product.id) {
+
+            <div [routerLink]="['/products', product.id]"
+                class="flex flex-col gap-3 cursor-pointer group bg-[#0d1117] border border-[#1e2a38] rounded-xl overflow-hidden">
+
+                <!-- Image area -->
+                <div class="relative bg-[#e8e8e8] h-[220px] overflow-hidden">
+
+                    <!-- Tag badge — only if exists -->
+                    @if (product.tag) {
+                    <span
+                        class="absolute top-3 left-3 bg-[#2e7dff] text-white text-xs font-bold uppercase px-2 py-1 rounded-md">
+                        {{ product.tag }}
+                    </span>
+                    }
+
+                    <!-- Wishlist button -->
+                    <button
+                        class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white hover:bg-white/40 transition-all">
+                        🤍
+                    </button>
+
+                    <!-- Placeholder for image -->
+                    <div class="w-full h-full bg-gradient-to-br from-[#d0d0d0] to-[#a0a0a0]"></div>
+
+                </div>
+
+                <!-- Card info -->
+                <div class="p-4 flex flex-col gap-2">
+
+                    <!-- Category + SKU row -->
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-bold text-[#2e7dff] uppercase tracking-wide">
+                            {{ product.category }}
+                        </span>
+                        <span class="text-xs text-[#5a7090]">SKU: {{ product.id }}</span>
+                    </div>
+
+                    <!-- Name -->
+                    <h4 class="text-white font-bold text-sm group-hover:text-[#2e7dff] transition-colors">
+                        {{ product.name }}
+                    </h4>
+
+                    <!-- Description -->
+                    <p class="text-xs text-[#5a7090] leading-relaxed line-clamp-2">
+                        {{ product.series }}
+                    </p>
+
+                    <!-- Price + CTA row -->
+                    <div class="flex justify-between items-center mt-2">
+                        <div class="flex flex-col">
+                            <span class="text-white font-black text-lg">${{ product.price }}</span>
+                            <span class="text-xs text-[#5a7090]">/unit</span>
+                        </div>
+                        <button
+                            class="bg-[#0d1117] border border-[#1e2a38] hover:border-[#2e7dff] hover:text-[#2e7dff] text-[#8a9ab0] text-xs font-semibold px-4 py-2 rounded-lg transition-all duration-200">
+                            View Specs
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            }
+
+        </div>
+    </main>
 
 </div>

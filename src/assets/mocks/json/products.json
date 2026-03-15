@@ -1,8 +1,742 @@
 [
-  { "id": 1, "name": "Vortex Carbon Sole", "category": "Performance", "price": 52.20, "tag": "Best Seller", "series": "AERO-MAX SERIES", "image": "" },
-  { "id": 2, "name": "Apex Trail Matrix", "category": "Trail", "price": 48.00, "tag": "New", "series": "TERRA-GRIP", "image": "" },
-  { "id": 3, "name": "Echo Foam Hybrid", "category": "Casual", "price": 38.50, "tag": "", "series": "URBAN-LITE", "image": "" },
-  { "id": 4, "name": "Kinetic Flex Pro", "category": "Performance", "price": 61.00, "tag": "New", "series": "AERO-MAX SERIES", "image": "" },
-  { "id": 5, "name": "Terra Grip X", "category": "Trail", "price": 44.00, "tag": "", "series": "TERRA-GRIP", "image": "" },
-  { "id": 6, "name": "Urban Stride Lite", "category": "Casual", "price": 35.00, "tag": "Sale", "series": "URBAN-LITE", "image": "" }
+  {
+    "id": 1,
+    "name": "Compound-X01 Industrial",
+    "category": "Industrial",
+    "filterTag": "N",
+    "price": 41.5,
+    "tag": "New Arrival",
+    "series": "WORKFORCE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.1,
+    "reviews": 62,
+    "inStock": true,
+    "pricePerKg": 15.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Ethylene-Vinyl Acetate (EVA)",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Compound-X02 Sustainable",
+    "category": "Sustainable",
+    "filterTag": "HTL",
+    "price": 43.0,
+    "tag": "Heavy Duty",
+    "series": "GREEN SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.2,
+    "reviews": 74,
+    "inStock": true,
+    "pricePerKg": 16.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "TPU",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Compound-X03 Medical",
+    "category": "Medical",
+    "filterTag": "B",
+    "price": 44.5,
+    "tag": "Eco-Friendly",
+    "series": "PRO-TECH SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.3,
+    "reviews": 86,
+    "inStock": false,
+    "pricePerKg": 16.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Natural Rubber",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Compound-X04 Specialty",
+    "category": "Specialty",
+    "filterTag": "LTH",
+    "price": 46.0,
+    "tag": "Limited Edition",
+    "series": "ELITE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.4,
+    "reviews": 98,
+    "inStock": true,
+    "pricePerKg": 17.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Bio-TPU",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Compound-X05 Performance",
+    "category": "Performance",
+    "filterTag": "H",
+    "price": 47.5,
+    "tag": "Best Seller",
+    "series": "WORKFORCE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.5,
+    "reviews": 110,
+    "inStock": true,
+    "pricePerKg": 17.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Nitrile-Butadiene (NBR)",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Compound-X06 Industrial",
+    "category": "Industrial",
+    "filterTag": "",
+    "price": 49.0,
+    "tag": "New Arrival",
+    "series": "GREEN SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.6,
+    "reviews": 122,
+    "inStock": false,
+    "pricePerKg": 18.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Ethylene-Vinyl Acetate (EVA)",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Compound-X07 Sustainable",
+    "category": "Sustainable",
+    "filterTag": "N",
+    "price": 50.5,
+    "tag": "Heavy Duty",
+    "series": "PRO-TECH SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.7,
+    "reviews": 134,
+    "inStock": true,
+    "pricePerKg": 18.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "TPU",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Compound-X08 Medical",
+    "category": "Medical",
+    "filterTag": "HTL",
+    "price": 52.0,
+    "tag": "Eco-Friendly",
+    "series": "ELITE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.8,
+    "reviews": 146,
+    "inStock": true,
+    "pricePerKg": 19.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Natural Rubber",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Compound-X09 Specialty",
+    "category": "Specialty",
+    "filterTag": "LTH",
+    "price": 53.5,
+    "tag": "Limited Edition",
+    "series": "WORKFORCE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.9,
+    "reviews": 158,
+    "inStock": false,
+    "pricePerKg": 19.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Bio-TPU",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Compound-X10 Performance",
+    "category": "Performance",
+    "filterTag": "B",
+    "price": 55.0,
+    "tag": "Best Seller",
+    "series": "GREEN SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.0,
+    "reviews": 170,
+    "inStock": true,
+    "pricePerKg": 20.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Nitrile-Butadiene (NBR)",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Compound-X11 Industrial",
+    "category": "Industrial",
+    "filterTag": "H",
+    "price": 56.5,
+    "tag": "New Arrival",
+    "series": "PRO-TECH SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.1,
+    "reviews": 182,
+    "inStock": true,
+    "pricePerKg": 20.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Ethylene-Vinyl Acetate (EVA)",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Compound-X12 Sustainable",
+    "category": "Sustainable",
+    "filterTag": "",
+    "price": 58.0,
+    "tag": "Heavy Duty",
+    "series": "ELITE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.2,
+    "reviews": 194,
+    "inStock": false,
+    "pricePerKg": 21.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "TPU",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Compound-X13 Medical",
+    "category": "Medical",
+    "filterTag": "N",
+    "price": 59.5,
+    "tag": "Eco-Friendly",
+    "series": "WORKFORCE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.3,
+    "reviews": 206,
+    "inStock": true,
+    "pricePerKg": 21.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Natural Rubber",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Compound-X14 Specialty",
+    "category": "Specialty",
+    "filterTag": "HTL",
+    "price": 61.0,
+    "tag": "Limited Edition",
+    "series": "GREEN SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.4,
+    "reviews": 218,
+    "inStock": true,
+    "pricePerKg": 22.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Bio-TPU",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Compound-X15 Performance",
+    "category": "Performance",
+    "filterTag": "B",
+    "price": 62.5,
+    "tag": "Best Seller",
+    "series": "PRO-TECH SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.5,
+    "reviews": 230,
+    "inStock": false,
+    "pricePerKg": 22.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Nitrile-Butadiene (NBR)",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Compound-X16 Industrial",
+    "category": "Industrial",
+    "filterTag": "LTH",
+    "price": 64.0,
+    "tag": "New Arrival",
+    "series": "ELITE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.6,
+    "reviews": 242,
+    "inStock": true,
+    "pricePerKg": 23.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Ethylene-Vinyl Acetate (EVA)",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Compound-X17 Sustainable",
+    "category": "Sustainable",
+    "filterTag": "H",
+    "price": 65.5,
+    "tag": "Heavy Duty",
+    "series": "WORKFORCE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.7,
+    "reviews": 254,
+    "inStock": true,
+    "pricePerKg": 23.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "TPU",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Compound-X18 Medical",
+    "category": "Medical",
+    "filterTag": "",
+    "price": 67.0,
+    "tag": "Eco-Friendly",
+    "series": "GREEN SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.8,
+    "reviews": 266,
+    "inStock": false,
+    "pricePerKg": 24.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Natural Rubber",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Compound-X19 Specialty",
+    "category": "Specialty",
+    "filterTag": "N",
+    "price": 68.5,
+    "tag": "Limited Edition",
+    "series": "PRO-TECH SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.9,
+    "reviews": 278,
+    "inStock": true,
+    "pricePerKg": 24.5,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Bio-TPU",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Compound-X20 Performance",
+    "category": "Performance",
+    "filterTag": "HTL",
+    "price": 70.0,
+    "tag": "Best Seller",
+    "series": "ELITE SERIES",
+    "image": "",
+    "description": "Next-generation industrial elastomer engineered for high-friction safety applications and extreme environmental resilience.",
+    "rating": 4.0,
+    "reviews": 290,
+    "inStock": true,
+    "pricePerKg": 25.0,
+    "metrics": {
+      "shoreHardness": "85A",
+      "abrasionLoss": "120 mm³",
+      "density": "1.18 g/cm³",
+      "flexLife": "500k+"
+    },
+    "specs": {
+      "materialBase": "Nitrile-Butadiene (NBR)",
+      "tensileStrength": "21.5 MPa",
+      "elongation": "420%",
+      "compressionSet": "18%",
+      "processingTemp": "145°C - 175°C",
+      "moistureContent": "< 0.05%",
+      "colorVariant": "Carbon Black (RAL 9005)",
+      "storageLife": "24 Months"
+    },
+    "technicalSummary": [
+      "Excellent resistance to oils, solvents, and chemicals.",
+      "Thermal stability range from -40°C to +120°C.",
+      "Compliant with REACH and RoHS 3 standards.",
+      "Available in granules or extruded sheets (custom)."
+    ]
+  }
 ]
